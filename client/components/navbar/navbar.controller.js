@@ -3,9 +3,16 @@
 angular.module('henryQrmApp')
   .controller('NavbarCtrl', function ($scope, $location, Auth) {
     $scope.menu = [{
-      'title': 'Home',
+      'title': 'Sobre',
       'link': '/'
-    }];
+    },
+    {
+      'title': 'Blog',
+      'link': '/blog'
+    },{
+      'title': 'pageThree',
+      'link': 'pageThree'}
+  ];
 
     $scope.isCollapsed = true;
     $scope.isLoggedIn = Auth.isLoggedIn;

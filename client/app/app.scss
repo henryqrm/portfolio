@@ -7,6 +7,11 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
 /**
  * App-wide Styles
  */
+ $color-primary-background: #212121;
+ $color-second-background: #727272;
+ $color-primary-main:  #303F9F;
+ $color-second-main: #3F51B5;
+ $color-primary-text: #FFFFFF;
 
 .browsehappy {
     margin: 0.2em 0;
@@ -19,6 +24,9 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
 // injector
 @import 'account/login/login.scss';
 @import 'admin/admin.scss';
+@import 'blog/blog.scss';
 @import 'main/main.scss';
+@import 'me-home/me-home.scss';
 @import 'modal/modal.scss';
+@import 'navbar/navbar.scss';
 // endinjector
