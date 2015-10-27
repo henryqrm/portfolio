@@ -1,0 +1,25 @@
+.me-henryqrm {
+  margin-top: 100px;
+  color: $color-primary-text;
+  img {
+    width: 300px;
+  }
+  p {
+    margin-left: 15px;
+    line-height: 1.6;
+    font-size: 25px;
+    font-style: italic;
+    span {
+      padding-right: 10px;
+      font-size: 40px;
+    }
+  }
+  .md-raised {
+    padding: 0 10px;
+    background-color: $color-primary-main;
+    md-icon {
+      padding-left: 5px;
+      font-size: 25px;
+    }
+  }
+}

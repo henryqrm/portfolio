@@ -10,6 +10,7 @@ angular.module('henryQrmApp', [
     'ngAnimate',
     'ngAria',
     'ngMaterial', // Angular material design
+    'ngMessages',
     'br.fullpage'
   ])
   .config(function($routeProvider, $locationProvider, $httpProvider) {
