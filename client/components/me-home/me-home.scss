@@ -51,7 +51,7 @@ $image-logo-sm: 200px;
 // Mobile
 @media screen and (max-width: 600px) {
   .img-circle-home {
-    @extend .img-circle;
+    //@extend .img-circle;
     background-size: cover;
     width: $image-logo-sm;
     height: $image-logo-sm;
